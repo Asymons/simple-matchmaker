@@ -1,0 +1,30 @@
+{
+  "name": "simple-matchmaker",
+  "version": "1.0.0",
+  "description": "Enable simple matchmaking in your applications and games.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asymons/simple-matchmaker.git"
+  },
+  "keywords": [
+    "matchmaking",
+    "algorithm",
+    "node",
+    "javascript"
+  ],
+  "author": "Alessio Symons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Asymons/simple-matchmaker/issues"
+  },
+  "homepage": "https://github.com/Asymons/simple-matchmaker#readme",
+  "dependencies": {
+    "better-queue": "^3.8.10",
+    "queue": "^4.4.2",
+    "yargs": "^12.0.1"
+  }
+}
