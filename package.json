@@ -1,6 +1,6 @@
 {
     "name": "simple-matchmaker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enable simple matchmaking in your applications and games.",
   "main": "index.js",
   "scripts": {
