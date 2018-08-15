@@ -17,8 +17,8 @@ const notify = (result) => {
   console.log(result);
 };
 
-matchmaker.addPlayer('Alessio');
-matchmaker.addPlayer('John');
+matchmaker.addPlayer('Alessio',notify);
+matchmaker.addPlayer('John',notify);
 // notify is called at this point
 ...
 ```

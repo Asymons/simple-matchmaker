@@ -1,5 +1,5 @@
 {
-  "name": "simple-matchmaker",
+    "name": "simple-matchmaker",
   "version": "1.0.0",
   "description": "Enable simple matchmaking in your applications and games.",
   "main": "index.js",
@@ -23,8 +23,5 @@
   },
   "homepage": "https://github.com/Asymons/simple-matchmaker#readme",
   "dependencies": {
-    "better-queue": "^3.8.10",
-    "queue": "^4.4.2",
-    "yargs": "^12.0.1"
   }
 }
