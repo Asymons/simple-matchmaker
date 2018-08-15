@@ -3,6 +3,8 @@
 ## Features
 - FIFO Matchmaking
 
+## How to use
+
 #### Install (via npm)
 ```bash
 npm i --save simple-matchmaker
