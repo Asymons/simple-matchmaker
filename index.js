@@ -1,6 +1,7 @@
 const fifomatch = require('./fifomatch');
+const elomatch = require('./elomatch');
 
-// Will be modifying this module to add different types of match-making algorithms.
 module.exports = {
-    addPlayer: fifomatch.addPlayer,
+    elomatch,
+    fifomatch,
 };
