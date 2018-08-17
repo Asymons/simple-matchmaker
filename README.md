@@ -10,7 +10,7 @@
 npm i --save simple-matchmaker
 ```
 #### Quick Example
-## FIFO Match
+##### FIFO Match
 ```js
 const matchmaker = require('simple-matchmaker');
 
@@ -23,7 +23,7 @@ matchmaker.fifomatch.addPlayer('John',notify);
 // notify is called at this point
 ...
 ```
-## Elo Based Match
+##### Elo Based Match
 ```js
 const matchmaker = require('simple-matchmaker');
 
@@ -42,14 +42,12 @@ matchmaker.elomatch.addPlayer({elo: 1100, name: 'John'});
 ...
 ```
 
-####
-
 ## Documentation
 
-# FIFO Match
+#### FIFO Match
 - `addPlayer(object, notify)` takes in an object to store in a queue as the first argument. In the second argument, notify will be fired when the list reaches capacity of two or more elements and first objects put into the queue are removed until the size is less than 2.
 
-# Elo Based Match
+#### Elo Based Match
 Note: `notify` is automatically called once a match is found.
 
 - `addPlayer(object)` takes in an object to store in a queue as the first argument. Object must contain "elo" property which is a number.
