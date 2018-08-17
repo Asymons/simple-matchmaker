@@ -2,6 +2,7 @@
 
 ## Features
 - FIFO Matchmaking
+- Elo Based Matchmaking
 
 ## How to use
 
